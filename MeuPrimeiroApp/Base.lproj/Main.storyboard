@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Galaxia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeuPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
         <!--Explosao View Controller-->
         <scene sceneID="tmZ-CV-qiq">
             <objects>
-                <viewController id="Cyd-N2-VgC" customClass="ExplosaoViewController" customModule="Galaxia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cyd-N2-VgC" customClass="ExplosaoViewController" customModule="MeuPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tu4-bn-73r">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,7 +129,7 @@
         <!--Planet View Controller-->
         <scene sceneID="eGR-Q8-Zkl">
             <objects>
-                <viewController id="5Ia-Nb-dUE" customClass="PlanetViewController" customModule="Galaxia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5Ia-Nb-dUE" customClass="PlanetViewController" customModule="MeuPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ekB-15-yxD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,7 +202,7 @@
         <!--Planet Two View Controller-->
         <scene sceneID="Y1n-n6-0la">
             <objects>
-                <viewController id="dzV-jn-fMd" customClass="PlanetTwoViewController" customModule="Galaxia" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dzV-jn-fMd" customClass="PlanetTwoViewController" customModule="MeuPrimeiroApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cs4-St-1cF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -272,6 +272,6 @@
         <image name="planet_17" width="954" height="739"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dGZ-Ew-mtl"/>
+        <segue reference="SbW-nK-jvw"/>
     </inferredMetricsTieBreakers>
 </document>
