@@ -20,27 +20,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jJj-tM-1bA">
-                                <rect key="frame" x="20" y="130" width="110" height="110"/>
+                                <rect key="frame" x="51" y="105" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="planet_01"/>
                                 <connections>
                                     <segue destination="dzV-jn-fMd" kind="show" id="HZI-Zo-I2V"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbe-kA-PJE">
-                                <rect key="frame" x="244" y="334" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="planet_04"/>
-                                <connections>
-                                    <segue destination="5Ia-Nb-dUE" kind="show" id="sBP-A3-6hh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLx-SH-MeF">
-                                <rect key="frame" x="20" y="566" width="250" height="250"/>
+                                <rect key="frame" x="10" y="522" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="planet_17"/>
                                 <connections>
                                     <segue destination="Cyd-N2-VgC" kind="show" id="N4p-CW-U2P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rbe-kA-PJE">
+                                <rect key="frame" x="228" y="272" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="planet_04"/>
+                                <connections>
+                                    <segue destination="5Ia-Nb-dUE" kind="show" id="sBP-A3-6hh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,26 +69,14 @@
                                 <rect key="frame" x="82" y="323" width="250" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Quer explodir esse planeta? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-sl-Mmj">
-                                <rect key="frame" x="20" y="147" width="374" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quer explodir esse planeta? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPH-sl-Mmj">
+                                <rect key="frame" x="15.5" y="147" width="378.5" height="33"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK7-8l-Lst">
-                                <rect key="frame" x="22" y="791" width="68" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
-                                <state key="normal" title="Sim">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="explodir:" destination="Cyd-N2-VgC" eventType="touchUpInside" id="Fya-MQ-Qcp"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEX-d2-qTN">
-                                <rect key="frame" x="326" y="791" width="68" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEX-d2-qTN">
+                                <rect key="frame" x="334" y="777" width="60" height="47"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
                                 <state key="normal" title="Não">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -97,22 +85,36 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="n4G-hC-cfj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pie-Fi-UnJ">
-                                <rect key="frame" x="32" y="801" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
-                                <state key="normal" title="SIM">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK7-8l-Lst">
+                                <rect key="frame" x="29" y="777" width="56" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Ouq-GK-BJ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
+                                <state key="normal" title="Sim">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="explodir:" destination="Cyd-N2-VgC" eventType="touchUpInside" id="Fya-MQ-Qcp"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w4p-RI-996">
-                                <rect key="frame" x="45" y="317" width="325" height="256"/>
+                                <rect key="frame" x="45" y="293" width="325" height="256"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="tPH-sl-Mmj" firstAttribute="top" secondItem="PSu-Gg-N1I" secondAttribute="top" constant="147" id="mRE-Vp-IqE"/>
+                            <constraint firstItem="yK7-8l-Lst" firstAttribute="baseline" secondItem="BEX-d2-qTN" secondAttribute="firstBaseline" id="30d-ob-Zhb"/>
+                            <constraint firstItem="yK7-8l-Lst" firstAttribute="top" secondItem="BEX-d2-qTN" secondAttribute="top" id="6pU-db-4VT"/>
+                            <constraint firstItem="yK7-8l-Lst" firstAttribute="leading" secondItem="PSu-Gg-N1I" secondAttribute="leading" constant="22" id="Htq-kE-7En"/>
+                            <constraint firstItem="yK7-8l-Lst" firstAttribute="firstBaseline" secondItem="BEX-d2-qTN" secondAttribute="baseline" id="R4B-jw-829"/>
+                            <constraint firstItem="tPH-sl-Mmj" firstAttribute="top" secondItem="PSu-Gg-N1I" secondAttribute="top" constant="147" id="WjX-F5-EUy"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="yK7-8l-Lst" secondAttribute="bottom" constant="-30" id="ZdT-9n-LbO"/>
+                            <constraint firstItem="BEX-d2-qTN" firstAttribute="trailing" secondItem="Tu4-bn-73r" secondAttribute="trailingMargin" id="j9m-JA-eY2"/>
+                            <constraint firstItem="tPH-sl-Mmj" firstAttribute="leading" secondItem="PSu-Gg-N1I" secondAttribute="leading" constant="15.5" id="oyS-uq-WSZ"/>
+                            <constraint firstItem="BEX-d2-qTN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yK7-8l-Lst" secondAttribute="trailing" constant="8" symbolic="YES" id="soC-eb-ljC"/>
+                            <constraint firstItem="BEX-d2-qTN" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tPH-sl-Mmj" secondAttribute="trailing" id="wnh-nQ-j61"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PSu-Gg-N1I"/>
                     </view>
@@ -134,31 +136,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="galaxia" translatesAutoresizingMaskIntoConstraints="NO" id="ets-lk-sbu">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galaxia" translatesAutoresizingMaskIntoConstraints="NO" id="ets-lk-sbu">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planet_04" translatesAutoresizingMaskIntoConstraints="NO" id="Mwp-el-vA4">
                                 <rect key="frame" x="132" y="346" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Quer explodir esse plante ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TO-ML-NtL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quer explodir esse plante ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TO-ML-NtL">
                                 <rect key="frame" x="25" y="147" width="364" height="33"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wet-BV-ns7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wet-BV-ns7">
                                 <rect key="frame" x="25" y="773" width="56" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
                                 <state key="normal" title="Sim">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52B-Is-TsY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52B-Is-TsY">
                                 <rect key="frame" x="334" y="773" width="60" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
                                 <state key="normal" title="Não">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -167,13 +166,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="SbW-nK-jvw"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NLC-ZF-UhN">
-                                <rect key="frame" x="80" y="338" width="255" height="167"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Kp-VQ-wTX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Kp-VQ-wTX">
                                 <rect key="frame" x="25" y="773" width="56" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
                                 <state key="normal" title="Sim">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -182,10 +176,29 @@
                                     <action selector="explodir:" destination="5Ia-Nb-dUE" eventType="touchUpInside" id="MOZ-lM-cHa"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NLC-ZF-UhN">
+                                <rect key="frame" x="80" y="337" width="254" height="168"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7TO-ML-NtL" firstAttribute="top" secondItem="8wT-12-VWQ" secondAttribute="top" constant="147" id="Ov2-In-tWh"/>
+                            <constraint firstItem="8Kp-VQ-wTX" firstAttribute="baseline" secondItem="52B-Is-TsY" secondAttribute="baseline" id="1LV-bI-8pQ"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="centerX" secondItem="ets-lk-sbu" secondAttribute="centerX" id="4e7-12-V9m"/>
+                            <constraint firstItem="NLC-ZF-UhN" firstAttribute="leading" secondItem="8wT-12-VWQ" secondAttribute="leading" constant="80" id="6Xu-VS-GM3"/>
+                            <constraint firstItem="ets-lk-sbu" firstAttribute="centerY" secondItem="ekB-15-yxD" secondAttribute="centerY" id="9Cl-JU-fvU"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="leading" secondItem="8Kp-VQ-wTX" secondAttribute="leading" id="E8V-ir-Yw3"/>
+                            <constraint firstItem="8Kp-VQ-wTX" firstAttribute="baseline" secondItem="wet-BV-ns7" secondAttribute="baseline" id="G35-HV-BWT"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="8Kp-VQ-wTX" secondAttribute="bottom" constant="-17" id="HLF-mB-K80"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="top" secondItem="8wT-12-VWQ" secondAttribute="top" constant="147" id="KiF-aa-N9f"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="leading" secondItem="wet-BV-ns7" secondAttribute="leading" id="WTj-7h-ip0"/>
+                            <constraint firstItem="ets-lk-sbu" firstAttribute="leading" secondItem="8wT-12-VWQ" secondAttribute="leading" id="XCm-J3-fTt"/>
+                            <constraint firstItem="ets-lk-sbu" firstAttribute="top" secondItem="8wT-12-VWQ" secondAttribute="top" id="Za0-gu-wJ3"/>
+                            <constraint firstItem="52B-Is-TsY" firstAttribute="trailing" secondItem="ekB-15-yxD" secondAttribute="trailingMargin" id="bXI-gb-Sba"/>
+                            <constraint firstItem="8wT-12-VWQ" firstAttribute="bottom" secondItem="NLC-ZF-UhN" secondAttribute="bottom" constant="303" id="eaA-Gt-b6m"/>
+                            <constraint firstItem="ets-lk-sbu" firstAttribute="centerY" secondItem="NLC-ZF-UhN" secondAttribute="centerY" id="ew2-vy-3nM"/>
+                            <constraint firstItem="ets-lk-sbu" firstAttribute="centerX" secondItem="NLC-ZF-UhN" secondAttribute="centerX" id="shU-fk-XxA"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="centerX" secondItem="ekB-15-yxD" secondAttribute="centerX" id="yXL-7z-50E"/>
+                            <constraint firstItem="7TO-ML-NtL" firstAttribute="centerX" secondItem="NLC-ZF-UhN" secondAttribute="centerX" id="ypi-bB-6DY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8wT-12-VWQ"/>
                     </view>
@@ -211,30 +224,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planet_01" translatesAutoresizingMaskIntoConstraints="NO" id="xWw-I4-Nw9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planet_01" translatesAutoresizingMaskIntoConstraints="NO" id="xWw-I4-Nw9">
                                 <rect key="frame" x="162" y="414" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4Wa-e6-XTI"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Quer explodir esse plante ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Up-Gp-cbv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quer explodir esse plante ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Up-Gp-cbv">
                                 <rect key="frame" x="30" y="147" width="364" height="33"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4D-8K-Yfk">
-                                <rect key="frame" x="20" y="746" width="56" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
-                                <state key="normal" title="Sim">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="explodir:" destination="dzV-jn-fMd" eventType="touchUpInside" id="jGM-fj-anP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kw0-Ae-nVg">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kw0-Ae-nVg">
                                 <rect key="frame" x="334" y="746" width="60" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="YMp-v2-KKq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
                                 <state key="normal" title="Não">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -243,14 +249,39 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="dGZ-Ew-mtl"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qb6-JQ-VSo">
-                                <rect key="frame" x="148" y="414" width="129" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qb6-JQ-VSo">
+                                <rect key="frame" x="148" y="414" width="128" height="100"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4D-8K-Yfk">
+                                <rect key="frame" x="32" y="746" width="56" height="62"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="30"/>
+                                <state key="normal" title="Sim">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="explodir:" destination="dzV-jn-fMd" eventType="touchUpInside" id="jGM-fj-anP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="9Up-Gp-cbv" firstAttribute="trailing" secondItem="Kw0-Ae-nVg" secondAttribute="trailing" id="0hh-r0-Hxj"/>
+                            <constraint firstItem="9Up-Gp-cbv" firstAttribute="trailing" secondItem="cs4-St-1cF" secondAttribute="trailingMargin" id="0yB-P7-yxB"/>
+                            <constraint firstItem="Kw0-Ae-nVg" firstAttribute="baseline" secondItem="W4D-8K-Yfk" secondAttribute="firstBaseline" id="1y5-Iz-ONe"/>
+                            <constraint firstItem="xWw-I4-Nw9" firstAttribute="centerX" secondItem="Qb6-JQ-VSo" secondAttribute="centerX" id="2HE-28-zb2"/>
+                            <constraint firstItem="Kw0-Ae-nVg" firstAttribute="bottom" secondItem="4Co-he-EhQ" secondAttribute="bottom" id="48T-xS-foc"/>
+                            <constraint firstItem="xWw-I4-Nw9" firstAttribute="top" secondItem="Qb6-JQ-VSo" secondAttribute="top" id="Jzd-bb-NB6"/>
+                            <constraint firstItem="4Co-he-EhQ" firstAttribute="trailing" secondItem="xWw-I4-Nw9" secondAttribute="trailing" constant="152" id="NGE-Rf-ZrS"/>
+                            <constraint firstItem="Kw0-Ae-nVg" firstAttribute="top" secondItem="W4D-8K-Yfk" secondAttribute="top" id="O7I-jA-sZE"/>
                             <constraint firstItem="9Up-Gp-cbv" firstAttribute="top" secondItem="4Co-he-EhQ" secondAttribute="top" constant="147" id="RKJ-sU-FeA"/>
+                            <constraint firstItem="W4D-8K-Yfk" firstAttribute="leading" secondItem="cs4-St-1cF" secondAttribute="leadingMargin" id="RQc-2S-rld"/>
+                            <constraint firstItem="4Co-he-EhQ" firstAttribute="bottom" secondItem="xWw-I4-Nw9" secondAttribute="bottom" constant="294" id="Xsh-c5-4Il"/>
+                            <constraint firstItem="xWw-I4-Nw9" firstAttribute="bottom" secondItem="Qb6-JQ-VSo" secondAttribute="bottom" id="lIf-oJ-Mi4"/>
+                            <constraint firstItem="xWw-I4-Nw9" firstAttribute="leading" secondItem="4Co-he-EhQ" secondAttribute="leading" constant="162" id="lw5-r4-aAN"/>
+                            <constraint firstItem="Kw0-Ae-nVg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="W4D-8K-Yfk" secondAttribute="trailing" constant="8" symbolic="YES" id="mrq-n9-eR0"/>
+                            <constraint firstItem="9Up-Gp-cbv" firstAttribute="centerX" secondItem="Qb6-JQ-VSo" secondAttribute="centerX" id="oAw-nQ-p29"/>
+                            <constraint firstItem="9Up-Gp-cbv" firstAttribute="centerX" secondItem="xWw-I4-Nw9" secondAttribute="centerX" id="w5J-np-LAH"/>
+                            <constraint firstItem="Qb6-JQ-VSo" firstAttribute="leading" secondItem="4Co-he-EhQ" secondAttribute="leading" constant="148" id="xnY-iR-foW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Co-he-EhQ"/>
                     </view>
